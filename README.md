@@ -1,6 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/t0mkfqs3oml1smkt?svg=true)](https://ci.appveyor.com/project/ChernovSTEST/jahomeworks5-1)
 
-
-
+[![Java CI with Gradle](https://github.com/ChernovSTEST/jahomeworks5.1/actions/workflows/grable.yml/badge.svg)](https://github.com/ChernovSTEST/jahomeworks5.1/actions/workflows/grable.yml)
 
 # Домашнее задание к занятию «2.3. Patterns»
 
