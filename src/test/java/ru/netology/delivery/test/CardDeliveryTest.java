@@ -1,8 +1,8 @@
 package ru.netology.delivery.test;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 import ru.netology.delivery.data.DataGenerator;
@@ -29,6 +29,7 @@ class CardDeliveryTest {
     }
 
     @Test
+    @DisplayName("Should successfully plan and replan meeting")
     void shouldSuccessfullyPlanAndReplanMeeting() {
         DataGenerator.UserInfo validUser = DataGenerator.Registration.generateUser("ru");
         int daysToAddForFirstMeeting = 5;
